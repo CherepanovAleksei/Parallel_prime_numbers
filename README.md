@@ -20,5 +20,6 @@ Range from:
 >>1
 Range to:
 >>10000000
-...in process
+Optimal range is=5800
+Time: 00:00:06.9185723
 ```
