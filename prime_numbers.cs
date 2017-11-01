@@ -142,9 +142,8 @@ class FindPrimeInRange
         for (int range = 1; range <= 50; range++)
         {
             stopWatch.Restart();
-            //TaskParallelFindInRange(begin, end, range * 200);
+            TaskParallelFindInRange(begin, end, range * 200);
             //ThreadParallelFindInRange(begin, end, range * 200);
-            ThreadPullParallelFindInRange(begin, end);
             stopWatch.Stop();
             TimeSpan newtime = stopWatch.Elapsed;
             timeArray[range - 1] = stopWatch.Elapsed;
