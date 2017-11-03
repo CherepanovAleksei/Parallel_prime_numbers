@@ -1,4 +1,5 @@
 # Parallel_prime_numbers
+Find prime numbers in range with different kind of parallelization (Threads, Thread Pull, Tasks)
 ## Thread Pull
 ```
 Range from:
